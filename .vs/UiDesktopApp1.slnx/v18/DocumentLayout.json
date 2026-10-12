@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\DotNet\\UiDesktopApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\views\\pages\\datapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:views\\pages\\datapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\controls\\loadingcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:controls\\loadingcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\controls\\loadingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:controls\\loadingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\viewmodels\\pages\\dataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:viewmodels\\pages\\dataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\services\\gangnamgupolpulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:services\\gangnamgupolpulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\viewmodels\\pages\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:viewmodels\\pages\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\services\\datetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:services\\datetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\models\\gangnamgupopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:models\\gangnamgupopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\views\\pages\\datapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:views\\pages\\datapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\views\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:views\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ighon\\AppData\\Local\\Temp\\.vsdbgsrc\\298aa9884316e168521b5fd17a081b3f0ad438b4ea45f4ef44c7ff75ca3242d1\\CallSiteFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\models\\datacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:models\\datacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\interfaces\\idatetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:interfaces\\idatetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\models\\wpfprojectdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:models\\wpfprojectdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\viewmodels\\pages\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:viewmodels\\pages\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\services\\applicationhostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:services\\applicationhostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|c:\\project\\dotnet\\uidesktopapp1\\views\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30976BFA-47D9-9219-8385-DBAE02DAB4E3}|UiDesktopApp1.csproj|solutionrelative:views\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadingControl.xaml.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Controls\\LoadingControl.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\LoadingControl.xaml.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Controls\\LoadingControl.xaml.cs",
+              "RelativeToolTip": "Controls\\LoadingControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T10:00:14.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadingControl.xaml",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Controls\\LoadingControl.xaml",
+              "RelativeDocumentMoniker": "Controls\\LoadingControl.xaml",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Controls\\LoadingControl.xaml",
+              "RelativeToolTip": "Controls\\LoadingControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-11T09:38:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataPage.xaml",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\DataPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\DataPage.xaml",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\DataPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\DataPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-11T02:17:53.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GangnamguPolpulationService.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Services\\GangnamguPolpulationService.cs",
+              "RelativeDocumentMoniker": "Services\\GangnamguPolpulationService.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Services\\GangnamguPolpulationService.cs",
+              "RelativeToolTip": "Services\\GangnamguPolpulationService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:09:57.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GangnamguPopulation.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Models\\GangnamguPopulation.cs",
+              "RelativeDocumentMoniker": "Models\\GangnamguPopulation.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Models\\GangnamguPopulation.cs",
+              "RelativeToolTip": "Models\\GangnamguPopulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:06:12.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DateTimeService.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Services\\DateTimeService.cs",
+              "RelativeDocumentMoniker": "Services\\DateTimeService.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Services\\DateTimeService.cs",
+              "RelativeToolTip": "Services\\DateTimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T05:36:17.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwC4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T06:00:29.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\ViewModels\\Pages\\DataViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Pages\\DataViewModel.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\ViewModels\\Pages\\DataViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Pages\\DataViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:02:07.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\ViewModels\\Pages\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Pages\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\ViewModels\\Pages\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Pages\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T05:37:44.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\SettingsPage.xaml",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\SettingsPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\SettingsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-11T08:00:00.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataPage.xaml.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\DataPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\DataPage.xaml.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\DataPage.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\DataPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:33:36.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CallSiteFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ighon\\AppData\\Local\\Temp\\.vsdbgsrc\\298aa9884316e168521b5fd17a081b3f0ad438b4ea45f4ef44c7ff75ca3242d1\\CallSiteFactory.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\ighon\\AppData\\Local\\Temp\\.vsdbgsrc\\298aa9884316e168521b5fd17a081b3f0ad438b4ea45f4ef44c7ff75ca3242d1\\CallSiteFactory.cs",
+              "ToolTip": "C:\\Users\\ighon\\AppData\\Local\\Temp\\.vsdbgsrc\\298aa9884316e168521b5fd17a081b3f0ad438b4ea45f4ef44c7ff75ca3242d1\\CallSiteFactory.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "RelativeToolTip": "..\\..\\..\\Users\\ighon\\AppData\\Local\\Temp\\.vsdbgsrc\\298aa9884316e168521b5fd17a081b3f0ad438b4ea45f4ef44c7ff75ca3242d1\\CallSiteFactory.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "ViewState": "AgIAADoCAAAAAAAAAAAvwH4CAAAFAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:44:14.135Z",
+              "EditorCaption": " [\uC77D\uAE30 \uC804\uC6A9]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\MainWindow.xaml",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-11T08:04:50.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T06:00:24.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataColor.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Models\\DataColor.cs",
+              "RelativeDocumentMoniker": "Models\\DataColor.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Models\\DataColor.cs",
+              "RelativeToolTip": "Models\\DataColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:08:52.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDatabase.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Interfaces\\IDatabase.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDatabase.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Interfaces\\IDatabase.cs",
+              "RelativeToolTip": "Interfaces\\IDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:07:01.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WpfProjectDatabaseContext.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Models\\WpfProjectDatabaseContext.cs",
+              "RelativeDocumentMoniker": "Models\\WpfProjectDatabaseContext.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Models\\WpfProjectDatabaseContext.cs",
+              "RelativeToolTip": "Models\\WpfProjectDatabaseContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T07:58:32.037Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDateTime.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Interfaces\\IDateTime.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDateTime.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Interfaces\\IDateTime.cs",
+              "RelativeToolTip": "Interfaces\\IDateTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T05:34:25.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\ViewModels\\Pages\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Pages\\SettingsViewModel.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\ViewModels\\Pages\\SettingsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Pages\\SettingsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T06:03:29.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationHostService.cs",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Services\\ApplicationHostService.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationHostService.cs",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Services\\ApplicationHostService.cs",
+              "RelativeToolTip": "Services\\ApplicationHostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T05:54:15.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\DashboardPage.xaml",
+              "ToolTip": "C:\\Project\\DotNet\\UiDesktopApp1\\Views\\Pages\\DashboardPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T05:38:59.377Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
