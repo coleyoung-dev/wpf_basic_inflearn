@@ -97,7 +97,7 @@
             <ui:Button Grid.Row="16" Height="50" Width="300" Content="Update" Foreground="White" Background="Bisque" Margin="0,0,0,10"/>
             <ui:Button Grid.Row="17" Height="50" Width="300" Content="Delete" Foreground="White" Background="IndianRed" Margin="0,0,0,10"/>
         </Grid>
-        <controls:LoadingControl Grid.Column="0" HorizontalAlignment="Center" x:Name="dgGridLoadingControl" Visibility="Visible" />
+        <controls:LoadingControl Grid.Column="1" HorizontalAlignment="Center" x:Name="dgGridLoadingControl" Visibility="Visible" />
         <Grid x:Name="dgGrid" Visibility="Collapsed" Grid.Column="1">
             <DataGrid x:Name="dgGangnamguPopulation" ItemsSource="{Binding ViewModel.GangnamguPopulations, Mode=OneWay}" />
         </Grid>

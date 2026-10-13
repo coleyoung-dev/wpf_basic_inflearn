@@ -21,7 +21,7 @@ namespace UiDesktopApp1.ViewModels.Pages
         [ObservableProperty]
         private IEnumerable<GangnamguPopulation>? _gangnamguPopulations;
         [ObservableProperty]
-        private IEnumerable<string>? _adminstrativeAgency;
+        private IEnumerable<string?> _adminstrativeAgency;
 
         [ObservableProperty]
         private string _selectedAdministrativeAgency = string.Empty;
@@ -29,17 +29,21 @@ namespace UiDesktopApp1.ViewModels.Pages
         public Task OnNavigatedToAsync()
         {
             if (!_isInitialized)
-                InitializeViewModel();
+                InitializeViewModelAsync();
 
             return Task.CompletedTask;
         }
 
         public Task OnNavigatedFromAsync() => Task.CompletedTask;
 
-        private void InitializeViewModel()
+        private async Task InitializeViewModelAsync()
         {
-            this.GangnamguPopulations = _iDatabase?.Get();
-            this.AdminstrativeAgency = _gangnamguPopulations?.Select(x => x?.AdministrativeAgency);
+            this.GangnamguPopulations = await Task.Run(() => this._iDatabase?.Get());
+
+            if (this.GangnamguPopulations != null)
+            {
+                this.AdminstrativeAgency = _gangnamguPopulations?.Select(x => x?.AdministrativeAgency).ToList();
+            }
             _isInitialized = true;
         }
     }
