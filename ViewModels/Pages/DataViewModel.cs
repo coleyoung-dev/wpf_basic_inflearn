@@ -9,26 +9,32 @@ namespace UiDesktopApp1.ViewModels.Pages
 {
     public partial class DataViewModel : ObservableObject, INavigationAware
     {
-        private bool _isInitialized = false;
-        private readonly IDatabase<GangnamguPopulation>? _iDatabase;
+        #region FIELDS
+        private bool isInitialized = false;
+        private readonly IDatabase<GangnamguPopulation>? iDatabase;
+        #endregion
+
+        #region PROPERTIES
+        [ObservableProperty] private IEnumerable<DataColor> colors;
+        [ObservableProperty] private IEnumerable<GangnamguPopulation>? gangnamguPopulations;
+        [ObservableProperty] private IEnumerable<string?> adminstrativeAgency;
+        [ObservableProperty] private string selectedAdministrativeAgency = string.Empty;
+        #endregion
+
+        #region CONSTRUCTOR
         public DataViewModel(IDatabase<GangnamguPopulation>? iDatabase)
         {
-            this._iDatabase = iDatabase;
+            this.iDatabase = iDatabase;
         }
+        #endregion
 
-        [ObservableProperty]
-        private IEnumerable<DataColor> _colors;
-        [ObservableProperty]
-        private IEnumerable<GangnamguPopulation>? _gangnamguPopulations;
-        [ObservableProperty]
-        private IEnumerable<string?> _adminstrativeAgency;
+        #region COMMANDS
+        #endregion
 
-        [ObservableProperty]
-        private string _selectedAdministrativeAgency = string.Empty;
-
+        #region METHODS
         public Task OnNavigatedToAsync()
         {
-            if (!_isInitialized)
+            if (!isInitialized)
                 InitializeViewModelAsync();
 
             return Task.CompletedTask;
@@ -38,13 +44,17 @@ namespace UiDesktopApp1.ViewModels.Pages
 
         private async Task InitializeViewModelAsync()
         {
-            this.GangnamguPopulations = await Task.Run(() => this._iDatabase?.Get());
+            this.GangnamguPopulations = await Task.Run(() => this.iDatabase?.Get());
 
             if (this.GangnamguPopulations != null)
             {
-                this.AdminstrativeAgency = _gangnamguPopulations?.Select(x => x?.AdministrativeAgency).ToList();
+                this.AdminstrativeAgency = gangnamguPopulations?.Select(x => x?.AdministrativeAgency).ToList();
             }
-            _isInitialized = true;
+            isInitialized = true;
         }
+        #endregion
+        
+
+
     }
 }
