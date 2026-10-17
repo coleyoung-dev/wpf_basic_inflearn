@@ -18,6 +18,7 @@ namespace UiDesktopApp1.ViewModels.Pages
         [ObservableProperty] private IEnumerable<DataColor> colors;
         [ObservableProperty] private IEnumerable<GangnamguPopulation>? gangnamguPopulations;
         [ObservableProperty] private IEnumerable<string?> adminstrativeAgency;
+        [ObservableProperty] private int? selecetedId;
         [ObservableProperty] private string selectedAdministrativeAgency = string.Empty;
         [ObservableProperty] private int? seletedTotalPopuplation;
         [ObservableProperty] private int? seletedMalePopulation;
@@ -56,6 +57,42 @@ namespace UiDesktopApp1.ViewModels.Pages
             this.GangnamguPopulations = this.iDatabase?.Get();
             //this.GangnamguPopulations = await Task.Run(() => this.iDatabase?.Get());
         }
+        [RelayCommand]
+        private void ReadDetailData()
+        {
+            var data = this.iDatabase?.GetDetail(this.SelecetedId);
+            if (data != null)
+            {
+                if (data.AdministrativeAgency != null)
+                    this.SelectedAdministrativeAgency = data.AdministrativeAgency;
+                this.SeletedTotalPopuplation = data.TotalPopulation;
+                this.SeletedMalePopulation = data.MalePopulation;
+                this.SelectedFeMalePopulation = data.FemalePopulation;
+                this.SelectedSexRatio = data.SexRatio;
+                this.SelectedNumberOfHouseholds = data.NumberOfHouseholds;
+                this.SelectedNumberOfPeoplePerHouseholds = data.NumberOfPeoplePerHousehold;
+            }
+        }
+        [RelayCommand]
+        private void UpdateData()
+        {
+            var existingData = this.iDatabase?.GetDetail(this.SelecetedId);
+            existingData.AdministrativeAgency = this.SelectedAdministrativeAgency;
+            existingData.TotalPopulation = this.SeletedTotalPopuplation;
+            existingData.MalePopulation = this.SeletedMalePopulation;
+            existingData.FemalePopulation = this.SelectedFeMalePopulation;
+            existingData.SexRatio = this.SelectedSexRatio;
+            existingData.NumberOfHouseholds = this.SelectedNumberOfHouseholds;
+            existingData.NumberOfPeoplePerHousehold = this.SelectedNumberOfPeoplePerHouseholds;
+
+            this.iDatabase?.Update(existingData);
+        }
+        [RelayCommand]
+        private void DeleteData()
+        {
+            this.iDatabase?.Delete(this.SelecetedId);
+        }
+
         #endregion
 
         #region METHODS

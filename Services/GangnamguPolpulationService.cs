@@ -18,12 +18,13 @@ namespace UiDesktopApp1.Services
             _wpfProjectDatabaseContext?.GangnamguPopulations.Add(entity);
             _wpfProjectDatabaseContext?.SaveChanges();
         }
-        public void Delete(int id)
+        public void Delete(int? id)
         {
             var validData = _wpfProjectDatabaseContext?.GangnamguPopulations.FirstOrDefault(x => x.Id == id);
             if(validData != null)
             {
                 _wpfProjectDatabaseContext?.GangnamguPopulations.Remove(validData);
+                _wpfProjectDatabaseContext?.SaveChanges();
             }
             else
             {
@@ -36,7 +37,7 @@ namespace UiDesktopApp1.Services
             return _wpfProjectDatabaseContext.GangnamguPopulations.ToList();
         }
 
-        public GangnamguPopulation? GetDetail(int id)
+        public GangnamguPopulation? GetDetail(int? id)
         {
             var validData = _wpfProjectDatabaseContext?.GangnamguPopulations.FirstOrDefault(x => x.Id == id);
             if (validData != null)
@@ -45,15 +46,17 @@ namespace UiDesktopApp1.Services
             }
             else
             {
+                MessageBox.Show("해당 데이터가 존재하지 않습니다.", "데이터 조회 오류", MessageBoxButton.OK, MessageBoxImage.Error);
                 throw new InvalidOperationException();
+                //throw new InvalidOperationException();
             }
         }
 
 
         public void Update(GangnamguPopulation entity)
         {
-            _wpfProjectDatabaseContext.GangnamguPopulations.Update(entity);
-            _wpfProjectDatabaseContext.SaveChanges();
+            _wpfProjectDatabaseContext?.GangnamguPopulations.Update(entity);
+            _wpfProjectDatabaseContext?.SaveChanges();
         }
 
     }
