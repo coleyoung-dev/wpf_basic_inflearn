@@ -51,39 +51,39 @@
                 <Run Text="Administrative Agency " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ComboBox Grid.Row="1" x:Name="cbxAdminAgency" SelectedItem="{Binding ViewModel.SelectedAdministrativeAgency, Mode=TwoWay}" ItemsSource="{Binding ViewModel.AdminstrativeAgency, Mode=TwoWay}" Margin="0,0,0,10"/>
+            <ComboBox Grid.Row="1" x:Name="cbxAdminAgency" IsEditable="True" Text="{Binding ViewModel.SelectedAdministrativeAgency, Mode=TwoWay}" ItemsSource="{Binding ViewModel.AdminstrativeAgency, Mode=TwoWay}" Margin="0,0,0,10"/>
             <ui:TextBlock Grid.Row="2" x:Name="tbkTotalPopulation" Margin="0,0,0,10">
                 <Run Text="TotalPopulation " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ui:TextBox Grid.Row="3" x:Name="tbxTotalPopulation" Margin="0,0,0,10"/>
+            <ui:NumberBox Grid.Row="3" x:Name="tbxTotalPopulation" Text="{Binding ViewModel.SeletedTotalPopuplation, Mode=TwoWay}" Margin="0,0,0,10"/>
             <ui:TextBlock Grid.Row="4" x:Name="tbkMalePopulation" Margin="0,0,0,10">
                 <Run Text="Male Population " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ui:TextBox Grid.Row="5" x:Name="tbxMalePopulation" Margin="0,0,0,10"/>
+            <ui:NumberBox Grid.Row="5" x:Name="tbxMalePopulation" Text="{Binding ViewModel.SeletedMalePopulation, Mode=TwoWay}" Margin="0,0,0,10"/>
             <ui:TextBlock Grid.Row="6" x:Name="tbkFemalePopulation" Margin="0,0,0,10">
                 <Run Text="Female Population " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ui:TextBox Grid.Row="7" x:Name="tbxFemalePopulation" Margin="0,0,0,10"/>
+            <ui:NumberBox Grid.Row="7" x:Name="tbxFemalePopulation" Text="{Binding ViewModel.SelectedFeMalePopulation, Mode=TwoWay}" Margin="0,0,0,10"/>
             <ui:TextBlock Grid.Row="8" x:Name="tbkSexRatio" Margin="0,0,0,10">
                 <Run Text="Sex Ratio " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ui:TextBox Grid.Row="9" Margin="0,0,0,10"/>
+            <ui:NumberBox Grid.Row="9" Text="{Binding ViewModel.SelectedSexRatio, Mode=TwoWay}" Margin="0,0,0,10"/>
             <ui:TextBlock Grid.Row="10" x:Name="tbkNumberOfHouseholds" Margin="0,0,0,10">
                 <Run Text="Number of Households " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ui:TextBox Grid.Row="11" Margin="0,0,0,10"/>
+            <ui:NumberBox Grid.Row="11" Text="{Binding ViewModel.SelectedNumberOfHouseholds, Mode=TwoWay}" Margin="0,0,0,10"/>
             <ui:TextBlock Grid.Row="12" x:Name="NumberOfPeoplePerHouseholds" Margin="0,0,0,10">
                 <Run Text="Number of People per Household " />
                 <Run Text="*" Foreground="OrangeRed" />
             </ui:TextBlock>
-            <ui:TextBox Grid.Row="13" Margin="0,0,0,10"/>
+            <ui:TextBox Grid.Row="13" Text="{Binding ViewModel.SelectedNumberOfPeoplePerHouseholds, Mode=TwoWay}" Margin="0,0,0,10"/>
 
-            <ui:Button Grid.Row="14" Height="50" Width="300" Content="Create" Foreground="White" Background="SteelBlue" Margin="0,0,0,10"/>
+            <ui:Button Grid.Row="14" Height="50" Width="300" Content="Create" Command="{Binding ViewModel.CreateNewDataCommand}" Foreground="White" Background="SteelBlue" Margin="0,0,0,10"/>
            
 
             <Grid Grid.Row="15">
@@ -91,8 +91,8 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <ui:Button Grid.Column="0" Height="50" Width="145" Content="Read All" Foreground= "White" Background="YellowGreen" HorizontalAlignment="Center" Margin="0,0,0,10" />
-                <ui:Button Grid.Column="1" Height="50" Width="145" Content="Read All" Foreground= "White" Background="YellowGreen" HorizontalAlignment="Center" Margin="0,0,0,10" />
+                <ui:Button Grid.Column="0" Height="50" Width="145" Content="Read All" Command="{Binding ViewModel.ReadAllDataCommand}"  Foreground= "White" Background="YellowGreen" HorizontalAlignment="Center" Margin="0,0,0,10" />
+                <ui:Button Grid.Column="1" Height="50" Width="145" Content="Read" Foreground= "White" Background="YellowGreen" HorizontalAlignment="Center" Margin="0,0,0,10" />
             </Grid>
             <ui:Button Grid.Row="16" Height="50" Width="300" Content="Update" Foreground="White" Background="Bisque" Margin="0,0,0,10"/>
             <ui:Button Grid.Row="17" Height="50" Width="300" Content="Delete" Foreground="White" Background="IndianRed" Margin="0,0,0,10"/>

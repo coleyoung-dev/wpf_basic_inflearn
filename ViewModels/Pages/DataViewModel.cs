@@ -19,6 +19,14 @@ namespace UiDesktopApp1.ViewModels.Pages
         [ObservableProperty] private IEnumerable<GangnamguPopulation>? gangnamguPopulations;
         [ObservableProperty] private IEnumerable<string?> adminstrativeAgency;
         [ObservableProperty] private string selectedAdministrativeAgency = string.Empty;
+        [ObservableProperty] private int? seletedTotalPopuplation;
+        [ObservableProperty] private int? seletedMalePopulation;
+        [ObservableProperty] private int? selectedFeMalePopulation;
+        [ObservableProperty] private double? selectedSexRatio;
+
+        [ObservableProperty] private int? selectedNumberOfHouseholds;
+        [ObservableProperty] private double? selectedNumberOfPeoplePerHouseholds;
+
         #endregion
 
         #region CONSTRUCTOR
@@ -29,6 +37,25 @@ namespace UiDesktopApp1.ViewModels.Pages
         #endregion
 
         #region COMMANDS
+        [RelayCommand]
+        private void CreateNewData()
+        {
+            GangnamguPopulation gangnamguPopulation = new GangnamguPopulation();
+            gangnamguPopulation.AdministrativeAgency = this.SelectedAdministrativeAgency;
+            gangnamguPopulation.TotalPopulation = this.SeletedTotalPopuplation;
+            gangnamguPopulation.MalePopulation = this.SeletedMalePopulation;
+            gangnamguPopulation.FemalePopulation = this.SelectedFeMalePopulation;
+            gangnamguPopulation.SexRatio = this.SelectedSexRatio;
+            gangnamguPopulation.NumberOfHouseholds = this.SelectedNumberOfHouseholds;
+            gangnamguPopulation.NumberOfPeoplePerHousehold = this.SelectedNumberOfPeoplePerHouseholds;
+            this.iDatabase?.Create(gangnamguPopulation);
+        }
+        [RelayCommand]
+        private void ReadAllData()
+        {
+            this.GangnamguPopulations = this.iDatabase?.Get();
+            //this.GangnamguPopulations = await Task.Run(() => this.iDatabase?.Get());
+        }
         #endregion
 
         #region METHODS
